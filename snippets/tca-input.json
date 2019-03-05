@@ -1,0 +1,80 @@
+{
+    "Input simple": {
+        "prefix": "tca-input",
+        "body": [
+            "'input_1' => [",
+            "    'label' => '${1:label}',",
+            "    'config' => [",
+            "        'type' => 'input',",
+            "    ],",
+            "],"
+        ],
+        "description": "Input simple"
+    },
+    "Input with placeholder": {
+        "prefix": "tca-input",
+        "body": [
+            "'input_28' => [",
+            "    'label' => '${1:label}',",
+            "    'config' => [",
+            "        'type' => 'input',",
+            "        'placeholder' => '${2:placeholder}',",
+            "        'eval' => 'null',",
+            "        'default' => null,",
+            "        'mode' => 'useOrOverridePlaceholder',",
+            "    ],",
+            "],"
+        ],
+        "description": "Input with placeholder"
+    },
+    "Input link": {
+        "prefix": "tca-input",
+        "body": [
+            "'input_29' => [",
+            "    'label' => '${1:label}',",
+            "    'config' => [",
+            "        'type' => 'input',",
+            "        'renderType' => 'inputLink',",
+            "    ],",
+            "],"
+        ],
+        "description": "Input link"
+    },
+    "Input slider": {
+        "prefix": "tca-input",
+        "body": [
+            "'input_30' => [",
+            "    'label' => '${1:label}',",
+            "    'config' => [",
+            "        'type' => 'input',",
+            "        'size' => 10,",
+            "        'eval' => 'trim,int',",
+            "        'range' => [",
+            "            'lower' => ${2:-100},",
+            "            'upper' => ${3:100},",
+            "        ],",
+            "        'default' => 0,",
+            "        'slider' => [",
+            "            'step' => 10,",
+            "            'width' => ${4:200},",
+            "        ],",
+            "    ],",
+            "],"
+        ],
+        "description": "Input slider"
+    },
+    "Input datetime": {
+        "prefix": "tca-input",
+        "body": [
+            "'inputdatetime_3' => [",
+            "    'label' => '${1:label}',",
+            "    'config' => [",
+            "        'type' => 'input',",
+            "        'renderType' => 'inputDateTime',",
+            "        'eval' => 'datetime',",
+            "    ],",
+            "],"
+        ],
+        "description": "Input datetime"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "name": "typo3-tca-snippets",
+    "displayName": "TYPO3 TCA Snippets",
+    "description": "TCA Snippets",
+    "version": "0.0.1",
+    "publisher": "bschauer",
+    "author": {
+        "name": "Boris Schauer"
+    },
+    "icon": "images/t3-snippet.png",
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "php",
+                "extensions": [
+                    ".php"
+                ]
+            }
+        ],
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/tca-check.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/tca-input.json"
+            }
+        ]
+    }
+}

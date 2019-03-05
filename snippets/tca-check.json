@@ -1,0 +1,151 @@
+{
+    "Checkbox with label": {
+        "prefix": "tca-check",
+        "body": [
+            "'checkbox_1' => [",
+            "   'exclude' => 1,",
+            "   'label' => '${1:Label}',",
+            "   'config' => [",
+            "      'type' => 'check',",
+            "      'items' => [",
+            "         ['${2:Item Label}', '${3:Value}'],",
+            "      ],",
+            "   ]",
+            "],"
+        ],
+        "description": "Checkbox with label"
+    },
+    "Checkbox cols=3": {
+        "prefix": "tca-check",
+        "body": [
+            "'checkbox_12' => [",
+            "   'exclude' => 1,",
+            "   'label' => '${1:label}',",
+            "   'config' => [",
+            "      'type' => 'check',",
+            "      'items' => [",
+            "         ['foo1', ''],",
+            "         ['foo2', ''],",
+            "         ['foo3', ''],",
+            "         ['foo4', ''],",
+            "      ],",
+            "      'cols' => '3',",
+            "   ],",
+            "],"
+        ],
+        "description": "Checkbox cols=3"
+    },
+    "Checkbox cols=inline": {
+        "prefix": "tca-check",
+        "body": [
+            "'checkbox_16' => [",
+            "   'exclude' => 1,",
+            "   'label' => '${1:label}',",
+            "   'config' => [",
+            "      'type' => 'check',",
+            "      'items' => [",
+            "         ['Mo', ''],",
+            "         ['Tu', ''],",
+            "         ['We', ''],",
+            "         ['Th', ''],",
+            "         ['Fr', ''],",
+            "         ['Sa', ''],",
+            "         ['Su', ''],",
+            "      ],",
+            "      'cols' => 'inline',",
+            "   ],",
+            "],"
+        ],
+        "description": "Checkbox cols=inline"
+    },
+    "Checkbox with toggle": {
+        "prefix": "tca-check",
+        "body": [
+            "'checkbox_17' => [",
+            "   'exclude' => 1,",
+            "   'label' => '${1:label}',",
+            "   'config' => [",
+            "      'type' => 'check',",
+            "      'renderType' => 'checkboxToggle',",
+            "      'items' => [",
+            "         [",
+            "            0 => '',",
+            "            1 => '',",
+            "            'labelChecked' => 'Enabled',",
+            "            'labelUnchecked' => 'Disabled',",
+            "         ]",
+            "      ],",
+            "   ]",
+            "],"
+        ],
+        "description": "Checkbox with toggle"
+    },
+    "Checkbox with toggle inverted": {
+        "prefix": "tca-check",
+        "body": [
+            "'checkbox_18' => [",
+            "   'exclude' => 1,",
+            "   'label' => '${1:label}',",
+            "   'config' => [",
+            "      'type' => 'check',",
+            "      'renderType' => 'checkboxToggle',",
+            "      'items' => [",
+            "         [",
+            "            0 => '',",
+            "            1 => '',",
+            "            'labelChecked' => 'Enabled',",
+            "            'labelUnchecked' => 'Disabled',",
+            "            'invertStateDisplay' => true",
+            "         ]",
+            "      ],",
+            "   ]",
+            "],"
+        ],
+        "description": "Checkbox with toggle inverted"
+    },
+    "Checkbox with labeled toggle": {
+        "prefix": "tca-check",
+        "body": [
+            "'checkbox_19' => [",
+            "   'exclude' => 1,",
+            "   'label' => '${1:label}',",
+            "   'config' => [",
+            "      'type' => 'check',",
+            "      'renderType' => 'checkboxLabeledToggle',",
+            "      'items' => [",
+            "         [",
+            "            0 => 'foo',",
+            "            1 => '',",
+            "            'labelChecked' => 'Enabled',",
+            "            'labelUnchecked' => 'Disabled',",
+            "         ]",
+            "      ],",
+            "   ]",
+            "],"
+        ],
+        "description": "Checkbox with labeled toggle"
+    },
+    "Checkbox with labeled toggle inverted": {
+        "prefix": "tca-check",
+        "body": [
+            "'checkbox_21' => [",
+            "   'exclude' => 1,",
+            "   'label' => '${1:label}',",
+            "   'config' => [",
+            "      'type' => 'check',",
+            "      'renderType' => 'checkboxLabeledToggle',",
+            "      'items' => [",
+            "         [",
+            "            0 => 'foo',",
+            "            1 => '',",
+            "            'labelChecked' => 'Enabled',",
+            "            'labelUnchecked' => 'Disabled',",
+            "            'invertStateDisplay' => true",
+            "         ]",
+            "      ],",
+            "   ]",
+            "],"
+        ],
+        "description": "Checkbox with labeled toggle inverted"
+    }
+}
