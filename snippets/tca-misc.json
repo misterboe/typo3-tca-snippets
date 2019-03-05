@@ -2,13 +2,13 @@
     "Universal field with config from tt_content": {
         "prefix": "tca-universal",
         "body": [
-            "    'externalcfg' => [",
-            "        'exclude' => 0,",
-            "    	 // 'l10n_mode' => 'prefixLangTitle',",
-            "    	 // 'l10n_cat' => 'text',",
-            "    	'label' => '${1:label}',",
-            "        'config' => $GLOBALS['TCA']['tt_content']['columns']['${2:header}']['config'],",
-            "    ],"
+            "'${1:fieldname}' => [",
+            "    'exclude' => 0,",
+            "//  	 'l10n_mode' => 'prefixLangTitle',",
+            "//   	 'l10n_cat' => 'text',",
+            "    'label' => 'asd',",
+            "    'config' => \\$GLOBALS['TCA']['tt_content']['columns']['${2:header}']['config'],",
+            "],"
         ],
         "description": "Universal field with config from tt_content"
     }

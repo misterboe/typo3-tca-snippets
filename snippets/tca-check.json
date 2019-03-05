@@ -2,9 +2,9 @@
     "Checkbox with label": {
         "prefix": "tca-check",
         "body": [
-            "'checkbox_1' => [",
+            "'${1:fieldname}' => [",
             "   'exclude' => 1,",
-            "   'label' => '${1:Label}',",
+            "   'label' => '${2:Label}',",
             "   'config' => [",
             "      'type' => 'check',",
             "      'items' => [",
@@ -18,9 +18,9 @@
     "Checkbox cols=3": {
         "prefix": "tca-check",
         "body": [
-            "'checkbox_12' => [",
+            "'${1:fieldname}' => [",
             "   'exclude' => 1,",
-            "   'label' => '${1:label}',",
+            "   'label' => '${2:label}',",
             "   'config' => [",
             "      'type' => 'check',",
             "      'items' => [",
@@ -38,9 +38,9 @@
     "Checkbox cols=inline": {
         "prefix": "tca-check",
         "body": [
-            "'checkbox_16' => [",
+            "'${1:fieldname}' => [",
             "   'exclude' => 1,",
-            "   'label' => '${1:label}',",
+            "   'label' => '${2:label}',",
             "   'config' => [",
             "      'type' => 'check',",
             "      'items' => [",
@@ -61,9 +61,9 @@
     "Checkbox with toggle": {
         "prefix": "tca-check",
         "body": [
-            "'checkbox_17' => [",
+            "'${1:fieldname}' => [",
             "   'exclude' => 1,",
-            "   'label' => '${1:label}',",
+            "   'label' => '${2:label}',",
             "   'config' => [",
             "      'type' => 'check',",
             "      'renderType' => 'checkboxToggle',",
@@ -83,9 +83,9 @@
     "Checkbox with toggle inverted": {
         "prefix": "tca-check",
         "body": [
-            "'checkbox_18' => [",
+            "'${1:fieldname}' => [",
             "   'exclude' => 1,",
-            "   'label' => '${1:label}',",
+            "   'label' => '${2:label}',",
             "   'config' => [",
             "      'type' => 'check',",
             "      'renderType' => 'checkboxToggle',",
@@ -106,9 +106,9 @@
     "Checkbox with labeled toggle": {
         "prefix": "tca-check",
         "body": [
-            "'checkbox_19' => [",
+            "'${1:fieldname}' => [",
             "   'exclude' => 1,",
-            "   'label' => '${1:label}',",
+            "   'label' => '${2:label}',",
             "   'config' => [",
             "      'type' => 'check',",
             "      'renderType' => 'checkboxLabeledToggle',",
@@ -128,9 +128,9 @@
     "Checkbox with labeled toggle inverted": {
         "prefix": "tca-check",
         "body": [
-            "'checkbox_21' => [",
+            "'${1:fieldname}' => [",
             "   'exclude' => 1,",
-            "   'label' => '${1:label}',",
+            "   'label' => '${2:label}',",
             "   'config' => [",
             "      'type' => 'check',",
             "      'renderType' => 'checkboxLabeledToggle',",
