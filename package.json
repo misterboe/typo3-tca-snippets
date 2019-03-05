@@ -2,7 +2,7 @@
     "name": "typo3-tca-snippets",
     "displayName": "TYPO3 TCA Snippets",
     "description": "TCA Snippets",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "publisher": "bschauer",
     "author": {
         "name": "Boris Schauer"
@@ -29,13 +29,16 @@
         "Snippets"
     ],
     "contributes": {
-        "languages": [{
-            "id": "php",
-            "extensions": [
-                ".php"
-            ]
-        }],
-        "snippets": [{
+        "languages": [
+            {
+                "id": "php",
+                "extensions": [
+                    ".php"
+                ]
+            }
+        ],
+        "snippets": [
+            {
                 "language": "php",
                 "path": "./snippets/tca-check.json"
             },
