@@ -29,15 +29,16 @@
         "Snippets"
     ],
     "contributes": {
-        "languages": [
-            {
-                "id": "php",
-                "extensions": [
-                    ".php"
-                ]
-            }
-        ],
-        "snippets": [
+        "languages": [{
+            "id": "php",
+            "extensions": [
+                ".php"
+            ]
+        }],
+        "snippets": [{
+                "language": "php",
+                "path": "./snippets/tca-misc.json"
+            },
             {
                 "language": "php",
                 "path": "./snippets/tca-check.json"
