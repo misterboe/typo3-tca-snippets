@@ -2,10 +2,20 @@
     "name": "typo3-tca-snippets",
     "displayName": "TYPO3 TCA Snippets",
     "description": "TCA Snippets",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "publisher": "bschauer",
     "author": {
         "name": "Boris Schauer"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/misterboe/typo3-tca-snippets/issues",
+        "email": "me@bschauer.de"
+    },
+    "homepage": "https://github.com/misterboe/typo3-tca-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/misterboe/typo3-tca-snippets"
     },
     "icon": "images/t3-snippet.png",
     "galleryBanner": {
@@ -19,16 +29,13 @@
         "Snippets"
     ],
     "contributes": {
-        "languages": [
-            {
-                "id": "php",
-                "extensions": [
-                    ".php"
-                ]
-            }
-        ],
-        "snippets": [
-            {
+        "languages": [{
+            "id": "php",
+            "extensions": [
+                ".php"
+            ]
+        }],
+        "snippets": [{
                 "language": "php",
                 "path": "./snippets/tca-check.json"
             },
