@@ -8,7 +8,7 @@
             "   'config' => [",
             "      'type' => 'check',",
             "      'items' => [",
-            "         ['${2:Item Label}', '${3:Value}'],",
+            "         ['${3:Item Label}', '${4:Value}'],",
             "      ],",
             "   ]",
             "],"
