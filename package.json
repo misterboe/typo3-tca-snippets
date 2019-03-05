@@ -2,7 +2,7 @@
     "name": "typo3-tca-snippets",
     "displayName": "TYPO3 TCA Snippets",
     "description": "TCA Snippets",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "bschauer",
     "author": {
         "name": "Boris Schauer"
