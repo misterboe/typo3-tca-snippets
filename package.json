@@ -18,10 +18,6 @@
         "url": "https://github.com/misterboe/typo3-tca-snippets"
     },
     "icon": "images/t3-snippet.png",
-    "galleryBanner": {
-        "color": "#C80000",
-        "theme": "dark"
-    },
     "engines": {
         "vscode": "^1.31.0"
     },
@@ -29,16 +25,13 @@
         "Snippets"
     ],
     "contributes": {
-        "languages": [
-            {
-                "id": "php",
-                "extensions": [
-                    ".php"
-                ]
-            }
-        ],
-        "snippets": [
-            {
+        "languages": [{
+            "id": "php",
+            "extensions": [
+                ".php"
+            ]
+        }],
+        "snippets": [{
                 "language": "php",
                 "path": "./snippets/tca-misc.json"
             },
